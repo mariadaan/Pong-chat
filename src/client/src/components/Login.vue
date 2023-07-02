@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
 .btn {
-  background: var(--purple1);
+  background: var(--blue1);
   color: var(--white1);
 }
 

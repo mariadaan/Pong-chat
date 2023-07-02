@@ -37,6 +37,8 @@ connection.onmessage = function (message) {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
+
 * {
   margin: 0;
   padding: 0;
@@ -48,14 +50,19 @@ connection.onmessage = function (message) {
   --white2: #f9fbfc;
   --white3: #f0f0f0;
   --black1: #30333d;
-  --purple1: #6a00ffb3;
-  --purple1hover: linear-gradient(
+  --blue1: #B2DAE7;
+  --blue2: #c1e3ee;
+  --blue3: #134279;
+  --blue4: #def4fb;
+
+  --blue1hover: linear-gradient(
     90deg,
-    rgba(106, 0, 255, 0.42930675688244047) 0%,
-    rgba(209, 0, 255, 0.43) 100%
-  );
-  --purple2: #e9eff4;
-  --gray1: #a4acb2;
+    rgba(17, 134, 236, 0.43) 0%,
+    rgba(19, 66, 121) 100%
+    /* rgba(106, 0, 255, 0.42930675688244047) 0%, */
+    );
+    --gray1: #a4acb2;
+    --gray2: #e9eff4;
 }
 
 .main {
@@ -74,7 +81,8 @@ body {
 
 body {
   scroll-behavior: smooth;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
   font-display: auto;
   overflow: hidden;
 }

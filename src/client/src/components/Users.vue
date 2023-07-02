@@ -34,11 +34,12 @@ export default {
 
 <style scoped>
 .users {
-  background: var(--white2);
+  background: var(--blue4);
 }
 
+
 a:hover {
-  background: var(--purple1hover);
+  background: var(--blue1hover);
   color: var(--white1);
   border-radius: 5px;
 }

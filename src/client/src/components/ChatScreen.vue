@@ -3,7 +3,7 @@
     class="col-8 d-flex flex-column p-0 justify-content-between p-3 border border-top-0 chatScreen"
   >
     <div class="d-flex flex-column justify-content-between chat">
-      <div class="d-flex flex-column m-auto text-center justify-content-center mb-2 header">
+      <div class="d-flex flex-column m-auto text-left justify-content-left mb-2 header">
         <h2 class="fw-bold">{{ currentChannel.name }}</h2>
         <p class="text-muted" v-if="channelMessages.length === 0">
           This place is so quiet, start chatting...
@@ -106,11 +106,12 @@ export default {
 
 .header {
   width: 100%;
-  border-bottom: 2px var(--gray1) solid;
+  border-bottom: 3px var(--gray1) solid;
 }
 
 h2 {
-  color: var(--purple1);
+  font-size: 1.5rem;
+  color: var(--black1);
 }
 
 .messages {
@@ -129,19 +130,19 @@ h2 {
 
 .messages::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: var(--purple1hover);
+  background: var(--blue1hover);
 }
 
 .chatfield {
-  background: var(--purple1);
-  color: var(--white2);
+  background: var(--blue2);
+  color: var(--black1);
   border-radius: 10px;
   border-top-left-radius: 0;
 }
 
 .chatbox:focus,
 .self .chatfield {
-  background: var(--purple2);
+  background: var(--gray2);
   color: var(--black1);
 }
 

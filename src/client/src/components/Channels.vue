@@ -2,7 +2,7 @@
   <div class="col-2 d-flex flex-column p-2 channels" :class="{ hide: navbar.channels }">
     <div class="d-flex flex-column">
       <div class="d-flex flex-row justify-content-between mx-1 mb-4 m-2 w-90">
-        <h5 class="fw-bold mt-auto mr-2">Channel List</h5>
+        <h5 class="fw-bold mt-auto mr-2">Channels</h5>
         <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
       </div>
 
@@ -16,7 +16,6 @@
         @click="setCurrentChannel"
       >
         <h6 class="fw-bold">{{ channel.name }}</h6>
-        <span>Last message...</span>
       </a>
     </div>
   </div>
@@ -75,7 +74,7 @@ a:hover {
 }
 
 .channels {
-  background: var(--white2);
+  background: var(--blue4);
 }
 
 button {
@@ -83,7 +82,7 @@ button {
   outline: none;
   border: none;
   font-size: 1rem;
-  background: var(--purple1);
+  background: var(--blue1);
   border-radius: 50%;
   color: var(--white1);
   font-weight: 600;
@@ -91,13 +90,16 @@ button {
 }
 
 button:hover {
-  background: var(--purple1hover);
+  background: var(--blue1hover);
 }
 
 h5 {
   font-size: clamp(0.5rem, 5vw, 1.2rem);
 }
 
+h6 {
+  margin-bottom: 0
+}
 @media screen and (max-width: 968px) {
   .channels {
     position: absolute;

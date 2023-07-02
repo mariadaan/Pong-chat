@@ -1,8 +1,8 @@
 {
   "channels": [
     {
-      "name": "Message Group",
-      "users": [1, 2],
+      "name": "Trance and Dance",
+      "users": [1, 2, 3, 4, 5, 6, 7],
       "id": 1
     },
     {
@@ -23,25 +23,72 @@
       "avatar": "/src/assets/avatar1.svg"
     },
     {
-      "username": "John Doe",
+      "username": "John",
       "id": 2,
       "avatar": "/src/assets/avatar2.svg"
+    },
+    {
+      "username": "Maria",
+      "id": 3,
+      "avatar": "/src/assets/avatar-maria.svg"
+    },
+    {
+      "username": "Tessa",
+      "id": 4,
+      "avatar": "/src/assets/avatar-tessa.svg"
+    },
+    {
+      "username": "Haseeb",
+      "id": 5,
+      "avatar": "/src/assets/avatar-haseeb.svg"
+    },
+    {
+      "username": "Raav",
+      "id": 6,
+      "avatar": "/src/assets/avatar-raav.svg"
+    },
+    {
+      "username": "Ster",
+      "id": 7,
+      "avatar": "/src/assets/avatar-ster.svg"
     }
   ],
   "messages": [
     {
       "channelId": 1,
-      "message": "Check out my other projects @ GitHub! https://github.com/AykutSarac",
+      "message": "Ik heb dit gemaakt",
       "userId": 1,
       "date": "2021-07-09T10:50:03.553Z",
       "id": 1
     },
     {
       "channelId": 1,
-      "message": "This project is made with Vue 3, Composition API, Fastify & JSON-Server.",
-      "userId": 2,
-      "date": "2021-07-09T10:50:49.061Z",
+      "message": "Wel een beetje valsspelen natuurlijk, maar wel goeie iNsPiRaTiE",
+      "userId": 3,
+      "date": "2021-07-09T10:50:33.553Z",
       "id": 2
+    },
+    {
+      "channelId": 1,
+      "message": "Ja dat is ook wel weer waar he. Mag dit denk je?",
+      "userId": 4,
+      "date": "2021-07-09T10:50:49.061Z",
+      "id": 3
+    },
+    {
+      "channelId": 1,
+      "message": "Ik denk eigenlijk dat dit niet de bedoeling is",
+      "userId": 5,
+      "date": "2021-07-09T10:50:49.061Z",
+      "id": 4
+    },
+    {
+      "channelId": 1,
+      "message": "Nee denk ik ook",
+      "userId": 6,
+      "date": "2021-07-09T10:50:49.061Z",
+      "id": 4
     }
+
   ]
 }

@@ -2,7 +2,9 @@
   <div class="navbar text-light w-100 d-flex justify-content-between">
     <img v-if="isUserValid" class="menu" :src="menu" alt="menu" @click="toggleChannels" />
     <a href="/">
-      <h2 class="m-0">Chatify</h2>
+      <div class="PongLogo">
+        <h2 class="m-0">PONG</h2>
+      </div>
     </a>
     <img v-if="isUserValid" class="users" :src="users" alt="users" @click="toggleUsers" />
   </div>
@@ -49,6 +51,16 @@ h2 {
   font-weight: 600;
 }
 
+.PongLogo {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  /* font-weight: 400;
+  font-size: 96px;
+  line-height: 127px; */
+  color: var(--blue3);
+  text-shadow: -2px 2px #a29e9e;
+}
+
 .menu,
 .users {
   width: 1.6rem;
@@ -63,8 +75,9 @@ a:hover {
 
 .navbar {
   z-index: 1;
-  background: var(--purple1);
+  background: var(--blue1);
   padding: 0.5em 1em;
+  border-bottom: 1px solid rgb(222,226,230);
 }
 
 @media screen and (max-width: 968px) {

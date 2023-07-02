@@ -64,7 +64,7 @@ export default {
 
 <style scoped>
 .btn-save {
-  background: rgba(106, 0, 255, 1);
+  background: var(--blue3);
   color: var(--white1);
 }
 
